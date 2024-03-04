@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObstacleAnimation : MonoBehaviour
 {
     public float speed = 0.2f;
-    public float strength = 9f;
+    public float strength = 5f;
 
     private float randomOffset;
 

@@ -10,7 +10,7 @@ public class LevelGenerator : MonoBehaviour
     public int width = 10;
 
     public GameObject wall;
-    public GameObject player;
+    public GameObject pickup;
 
     private bool playerSpawned = false;
 
@@ -41,7 +41,7 @@ public class LevelGenerator : MonoBehaviour
                 {
                     //spawn player
                     Vector3 pos = new Vector3(x - width / 2f, 1.25f, y - height / 2f);
-                    Instantiate(player, pos, Quaternion.identity);
+                    Instantiate(pickup, pos, Quaternion.identity);
                     playerSpawned = true;
                 }
             }

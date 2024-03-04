@@ -7,6 +7,6 @@ public class GenerateNewLevel : MonoBehaviour
 {
     public void GenerateLevel()
     {
-        SceneManager.LoadScene("Scene02");
+        SceneManager.LoadScene("Scene03");
     }
 }
